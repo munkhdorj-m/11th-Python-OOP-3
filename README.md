@@ -11,7 +11,7 @@ https://drive.google.com/file/d/1Dfu8jYSOsRFwReeNXO6nA0ffTYqtH2BT/view?usp=shari
 **Problem:**
 Build a mini School Management System.
 
-Requirements:  
+**Requirements:**
 
 Base Class: Person   
 Attributes:   
@@ -53,7 +53,7 @@ Methods:
 * `show_all()` - Loop and call each person’s get_info()
 * `find(name)` - Returns the Person with that name, or None
 
-Example:
+**Example:**
 
     Input:
         school = School()
@@ -86,7 +86,7 @@ Example:
  
 Build a mini game engine system for an RPG.
 
-Requirements:  
+**Requirements:**
 
 Base Class (Parent class): Character   
 Attributes:   
@@ -120,7 +120,7 @@ Subclasses (Child classes):
     * `attack()` → deals 5 damage
     * Special: `fireball()` → 20 damage
 
-Example:
+**Example:**
 
     Input:
         warrior = Warrior("Thor")
