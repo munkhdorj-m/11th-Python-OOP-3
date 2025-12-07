@@ -10,18 +10,15 @@ https://drive.google.com/file/d/1Dfu8jYSOsRFwReeNXO6nA0ffTYqtH2BT/view?usp=shari
 
 **Problem:**
  
-Create a base class `Shape` with an attribute `name`, and a derived class `Rectangle` that adds `width` and `height`.
+Build a mini game engine system for an RPG.
 
-Requirements:   
-Shape:  
+Requirements:  
 
-* Public attribute: `name`
-* Method: `get_name()` → returns the name
-  
-Rectangle(Shape):  
-
-* Attributes: `width`, `height`
-* Method: `area()` → returns width × height
+Base Class (Parent class): Character   
+Attributes:   
+* name
+* __health (private)
+    * Always between 0 and 100
 
 Example:
 
