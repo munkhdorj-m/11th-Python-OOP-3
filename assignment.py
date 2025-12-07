@@ -35,12 +35,16 @@ class Teacher(Person):
     def raise_salary(self, amount):
         self.__salary += amount
 
+    def get_salary(self):
+        return self.__salary
+
 
 class Staff(Person):
     def __init__(self, name, age, position):
         super().__init__(name, age)
         self.position = position
-
+    def get_info(self):
+        return "{} (Age: {}) — Position: {}".format(self.name, self.age, self.position)
 
 class School:
     def __init__(self):
