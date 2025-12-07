@@ -16,11 +16,13 @@ def test_student_average(name, age, grade_level, marks, expected_avg):
     assert s.calculate_average() == expected_avg
 
 def test_teacher_salary_and_info():
-    t = Teacher("Mr. Brown", 40, "Math", 1200)
-    old_info = t.get_info()
-    t.raise_salary(300)
-    # salary is private, so info should remain same
-    assert t.get_info() == old_info
+    t = Teacher("Tom", "Physics", 1000)
+    t.raise_salary(-100)
+    assert t.get_salary() == 1000 
+    t.raise_salary(0)
+    assert t.get_salary() == 1000  
+    t.raise_salary(200)
+    assert t.get_salary() == 1200
 
 def test_staff_info():
     st = Staff("Janitor Joe", 50, "Janitor")
