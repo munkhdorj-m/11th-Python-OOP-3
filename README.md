@@ -37,7 +37,7 @@ Teacher:
     * `__salary` (private)
 * Methods:
     * `raise_salary(amount)`
-    * get_info() can include salary or not (your choice)
+    * `get_info()` can include salary or not (your choice)
  
 Staff:   
 * Extra attributes:   
