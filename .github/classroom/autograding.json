@@ -1,9 +1,9 @@
 {
     "tests": [
       {
-        "name": "Exercise 1",
+        "name": "Exercise 1-1",
         "setup": "sudo -H pip3 install -r requirements.txt",
-        "run": "pytest test_assignment.py::test1",
+        "run": "pytest test_assignment.py::test_student_average",
         "input": "",
         "output": "",
         "comparison": "included",
@@ -11,9 +11,79 @@
         "points": 1
       },
       {
-        "name": "Exercise 2",
+        "name": "Exercise 1-2",
         "setup": "sudo -H pip3 install -r requirements.txt",
-        "run": "pytest test_assignment.py::test2",
+        "run": "pytest test_assignment.py::test_teacher_salary_and_info",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 1
+      },
+      {
+        "name": "Exercise 1-3",
+        "setup": "sudo -H pip3 install -r requirements.txt",
+        "run": "pytest test_assignment.py::test_staff_info",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 1
+      },
+       {
+        "name": "Exercise 1-4",
+        "setup": "sudo -H pip3 install -r requirements.txt",
+        "run": "pytest test_assignment.py::test_school_add_and_find",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 1
+      },
+      {
+        "name": "Exercise 2-1",
+        "setup": "sudo -H pip3 install -r requirements.txt",
+        "run": "pytest test_assignment.py::test_take_damage",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 1
+      },
+      {
+        "name": "Exercise 2-2",
+        "setup": "sudo -H pip3 install -r requirements.txt",
+        "run": "pytest test_assignment.py::test_heal",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 1
+      },
+      {
+        "name": "Exercise 2-3",
+        "setup": "sudo -H pip3 install -r requirements.txt",
+        "run": "pytest test_assignment.py::test_is_alive_and_attack",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 1
+      },
+      {
+        "name": "Exercise 2-4",
+        "setup": "sudo -H pip3 install -r requirements.txt",
+        "run": "pytest test_assignment.py::test_warrior_special",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 1
+      },
+      {
+        "name": "Exercise 2-5",
+        "setup": "sudo -H pip3 install -r requirements.txt",
+        "run": "pytest test_assignment.py::test_mage_special",
         "input": "",
         "output": "",
         "comparison": "included",
