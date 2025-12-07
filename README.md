@@ -37,8 +37,6 @@ Teacher:
     * `__salary` (private)
 * Methods:
     * `raise_salary(amount)`
-    * `get_info()` - Returns string such as:
-        * "Tom (Subject: Physics)"
  
 Staff:   
 * Extra attributes:   
