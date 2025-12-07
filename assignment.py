@@ -1,6 +1,4 @@
-# assignment.py
-
-# ---------- Exercise 1: School Management System ----------
+# Exercise 1
 
 class Person:
     pass
@@ -17,7 +15,7 @@ class Staff(Person):
 class School:
     pass
 
-# ---------- Exercise 2: RPG Game System ----------
+# Exercise 2
 
 class Character:
     pass
