@@ -19,7 +19,7 @@ Attributes:
 * `age`
 
 Methods:  
-* `get_info()`: Returns string such as:
+* `get_info()` - Returns string such as:
     * "Alice (Age: 16)"
 
 Subclasses (Child classes):  
@@ -41,7 +41,7 @@ Teacher:
  
 Staff:   
 * Extra attributes:   
-    * `position` (e.g. “Librarian”, “Janitor”)
+    * `position` - (e.g. “Librarian”, “Janitor”)
 
 School:  
 Acts as a container.  
