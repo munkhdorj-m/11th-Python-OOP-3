@@ -35,7 +35,8 @@ Teacher:
     * `subject`
     * `__salary` (private)
 * Methods:
-    * `raise_salary(amount)`
+    * `raise_salary(amount)` - adds salary
+    * `get_salary()` - return salary
  
 Staff:   
 * Extra attributes:   
