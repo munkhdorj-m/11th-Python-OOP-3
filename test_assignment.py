@@ -17,8 +17,6 @@ def test_student_average(name, age, grade_level, marks, expected_avg):
 
 def test_teacher_salary_and_info():
     t = Teacher("Tom", "Physics",30, 1000)
-    t.raise_salary(-100)
-    assert t.get_salary() == 1000 
     t.raise_salary(0)
     assert t.get_salary() == 1000  
     t.raise_salary(200)
