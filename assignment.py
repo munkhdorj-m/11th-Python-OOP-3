@@ -36,8 +36,7 @@ class Teacher(Person):
         self.__salary += amount
     
     def get_info(self):
-        return "{} (Age: {}) — Subject: {}".format(self.name, self.age, self.subject)
-
+        pass
 
 class Staff(Person):
     def __init__(self, name, age, position):
