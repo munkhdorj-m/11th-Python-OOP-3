@@ -13,7 +13,7 @@ Build a mini School Management System.
 
 **Requirements:**
 
-Base Class: Person   
+Base Class (Parent class): Person   
 Attributes:   
 * `name`
 * `age`
