@@ -37,6 +37,7 @@ Teacher:
 * Methods:
     * `raise_salary(amount)` - adds salary
     * `get_salary()` - return salary
+    * `get_info()` - Returns string such as - "Mr. Brown (Age: 40) - Subject: Math"
  
 Staff:   
 * Extra attributes:   
