@@ -42,14 +42,15 @@ Staff:
 * Extra attributes:   
     * `position` - (e.g. “Librarian”, “Janitor”)
 * Methods:
-    * `get_info()` - Returns string such as - "Janitor Joe (Age: 50) — Position: Janitor"
+    * `get_info()` - Returns string such as - "Janitor Joe (Age: 50) - Position: Janitor"
 
 School:  
 Acts as a container.  
-
-Attributes:
-* `people` - a list of Person objects (students + teachers + staff)
-Methods:
+ 
+Attributes:  
+* `people` - a list of Person objects (students + teachers + staff)   
+  
+Methods:    
 * `add_person(p)` - Add any object of type Person (polymorphism)
 * `show_all()` - Loop and call each person’s get_info()
 * `find(name)` - Returns the Person with that name, or None
@@ -74,9 +75,9 @@ Methods:
         print(school.find("Alice").calculate_average())
     
     Output:
-        Mr. Brown (Age: 40) — Subject: Math
-        Alice (Age: 16) — Grade: 11
-        Janitor Joe (Age: 50) — Position: Janitor
+        Mr. Brown (Age: 40) - Subject: Math
+        Alice (Age: 16) - Grade: 11
+        Janitor Joe (Age: 50) - Position: Janitor
         90.0
 
 ---
