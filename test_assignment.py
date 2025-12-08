@@ -24,7 +24,7 @@ def test_teacher_salary_and_info():
 
 def test_staff_info():
     st = Staff("Janitor Joe", 50, "Janitor")
-    assert st.get_info() == "Janitor Joe (Age: 50) — Position: Janitor"
+    assert st.get_info() == "Janitor Joe (Age: 50) - Position: Janitor"
 
 def test_school_add_and_find():
     school = School()
